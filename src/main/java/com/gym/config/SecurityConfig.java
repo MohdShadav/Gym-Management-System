@@ -64,7 +64,7 @@ public class SecurityConfig {
         // Allow frontend URLs
         config.setAllowedOrigins(List.of(
                 "http://localhost:3000",
-                "https://your-frontend.vercel.app"
+                "https://gym-management-frontend-psi.vercel.app/"
         ));
 
         config.setAllowedMethods(List.of(
